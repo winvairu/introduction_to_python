@@ -1,5 +1,8 @@
 # It is required to calculate the sum of integers located between the numbers 1 and N inclusive.
 
+# input: 5
+# output: 15
+
 while True:
     try:
         n = int(input("Enter the number of coins (from 1 to 10000) or enter 0 to exit: "))
