@@ -24,12 +24,10 @@ while True:
             newlist = [None] * n
             if shift > 0:
                 for i in range(n):
-                    j = n * (-1) + i + shift
-                    newlist[j] = mylist[i]
+                    newlist[n * (-1) + i + shift] = mylist[i]
             elif shift < 0:
                 for i in range(n):
-                    j = i + shift
-                    newlist[j] = mylist[i]
+                    newlist[i + shift] = mylist[i]
             else:
                 newlist = mylist
             print(newlist)
