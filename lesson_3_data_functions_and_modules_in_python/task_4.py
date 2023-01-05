@@ -14,7 +14,6 @@ while True:
             print(format(n, 'b'))
             # or
             mylist = []
-            i = 0
             while n > 0:
                 n2 = n % 2
                 n = n // 2
