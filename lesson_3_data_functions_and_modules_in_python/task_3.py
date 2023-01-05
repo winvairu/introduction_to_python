@@ -2,7 +2,7 @@
 # Write a program that will find the difference between the maximum and
 # minimum values of the fractional part of the elements.
 #
-# Пример:
+# Example:
 # - [1.1, 1.2, 3.1, 5, 10.01] => 0.19
 
 import random
