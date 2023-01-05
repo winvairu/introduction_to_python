@@ -1,6 +1,9 @@
 # Set a list of several numbers.
 # Write a program that will find the sum of the list items standing in an odd position.
 
+# Example:
+# - [2, 3, 5, 9, 3] -> on the odd positions of elements 3 and 9, the answer is 12.
+
 import random
 
 while True:
