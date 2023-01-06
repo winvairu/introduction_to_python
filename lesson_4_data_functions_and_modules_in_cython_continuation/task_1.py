@@ -17,6 +17,9 @@ def input_validation():
                 print("Error! Invalid value.")
 
 def output_accuracy(a):
+    if a == None:
+        print("The program is completed.")
+        exit()
     pi = 3.141592653589793
     print(f"{pi:.{a}f}")
 
