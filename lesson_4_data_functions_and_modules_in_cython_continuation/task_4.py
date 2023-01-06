@@ -25,7 +25,7 @@ def create_polynomial(a):
     mylist1 = [chr(0x2070), chr(0x00B9), chr(0x00B2), chr(0x00B3), chr(0x2074),
     chr(0x2075), chr(0x2076), chr(0x2077), chr(0x2078), chr(0x2079)]
     mylist2 = [' + ', ' - ']
-    print("{}x{}{}{}x{}{} = 0".format(random.randint(0, 100), mylist1[a], mylist2[random.randint(0, 1)],
+    print("{}x{}{}{}x{}{} = 0".format(random.randint(1, 100), mylist1[a], mylist2[random.randint(0, 1)],
     random.randint(0, 100), mylist2[random.randint(0, 1)], random.randint(0, 100)))
 
 k = input_validation()
