@@ -39,4 +39,5 @@ if number == None:
     print("The program is completed.")
     exit()
 my_list = create_list(number)
+print("Non-repeating elements:")
 nonrepeating_elements(my_list)
